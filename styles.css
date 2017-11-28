@@ -1,0 +1,121 @@
+html, body {
+    font-family: Tahoma, sans-serif;
+}
+.page-heading {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: center;
+    @media screen and(max-width: 768px) {
+        font-size: 23px;
+    }
+}
+#message {
+    padding: 12px;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+table {
+    width: 93%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    outline: 2px solid #18163b;
+}
+th {
+    padding: 12px 6px 8px 6px;
+    font-size: 14px;
+}
+td {
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+    white-space: nowrap;
+}
+.check {
+    text-align: center;
+}
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    @media screen and(max-width: 768px) {
+        width: 15px;
+        height: 15px;
+    }
+}
+.table-image {
+    width: 20px;
+}
+.nav-section {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-nav {
+    padding: 6px;
+    border-radius: 3px;
+}
+.filter-head {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #23205e;
+}
+.select-form {
+    margin-bottom: 50px;
+}
+#gender {
+    @media screen and(max-width: 576px) {
+        margin-bottom: 8px;
+    }
+}
+.form-inline .form-group {
+    @media screen and(max-width: 576px) {
+        margin-bottom: 20px !important;
+    }
+}
+
+/* Redagavimas */
+.subhead {
+    width: 80%;
+    margin: 0 auto;
+    color: #5e78b9;
+    font-size: 24px;
+    margin-top: 30px;
+    @media screen and(max-width: 768px) {
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.edit-background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.edit-inner {
+    width: 80%;
+    margin: auto;
+    margin-top: 23px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    @media screen and(max-width: 768px) {
+        width: 90%;
+    }
+}
+.edit-head {
+    background-color: #254f80;
+    padding: 7px 15px;
+}
+#save {
+    margin-left: 10px;
+}
+input {
+    text-align: left;
+}
